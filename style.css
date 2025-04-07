@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.vk{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    background-color: #850AE5;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.social{
+    padding-left: 20px;
+}
+
+.hit{
+    position: absolute;
+    height: 200px;
+    right: 25px;
+    top: 30px;
+}
+
+h1::after{
+    content: url("https://lms.algoritmika.org/uploads/student/70146139/67f3f51ff2a9a.png");
+}
+
+h1::before{
+    content: url("https://lms.algoritmika.org/uploads/student/70146139/67f3f561a9b19.png");
+}
+
+.tel::before{
+    content: url("https://lms.algoritmika.org/uploads/student/70146139/67f3f76a9fa42.png");
+}
+
+.address::before{
+    content: url("https://lms.algoritmika.org/uploads/student/70146139/67f3f51ff2a9a.png");
+}
+
+.article-but:hover{
+    border: 5px solid #850AE5;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+.post:hover{
+    border: 5px solid #850AE5;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
